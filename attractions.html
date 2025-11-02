@@ -1,85 +1,211 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batanes Attractions</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg fixed-top">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="assets/img/logo batanes.png" alt="Batanes Logo" width="100" height="70">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon me-2"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link" href="index.html#attractions">Attractions</a>
-                                <a class="nav-link" href="index.html#delicacy">Delicacy</a>
-                                <a class="nav-link" href="index.html#facts">Facts About Batanes</a>
-                            </div>
-                        </div>
-                    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <img src="assets/img/logo batanes.png" alt="Batanes Logo"
+                    width="100" height="70"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon me-2"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="attractions.html">Attractions</a>
+                    <a class="nav-link" href="delicacy">Delicacy</a>
+                    <a class="nav-link" href="facts">Facts About Batanes</a>
+                </div>
             </div>
-            </nav>
         </div>
-    </div>
-    <div class="container py-5">
-        <h1 class="text-center mb-5 fw-bold">Batanes Attractions</h1>
+    </nav>
 
-        <section class="attractions-section container py-5 mt-5">
-            <div class="text-center mb-5">
-                <h2 class="section-title">Top Attractions in Batanes</h2>
-                <p class="section-sub">Learn more about the most beautiful destinations across the islands.</p>
-            </div>
+    <section class="attractions-section container py-5 mt-5">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Top Attractions in Batanes</h2>
+            <p class="section-sub">Learn more about the most beautiful destinations across the islands.</p>
+        </div>
 
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card attraction-card border-0 shadow-sm">
-                        <img src="assets/attractions/basco.webp" class="card-img-top" alt="Basco Lighthouse">
-                        <div class="card-body">
-                            <h5 class="card-title">Basco Lighthouse</h5>
-                            <p><strong> Location:</strong> Naidi Hills, Basco, Batanes</p>
-                            <p><strong> Short History:</strong> Built in 2003, the Basco Lighthouse stands as a symbol
-                                of safety and beauty, overlooking the Batanes coastlines.</p>
-                            <p><strong> How to Get There:</strong> Take a tricycle from Basco town proper (around 10
-                                minutes).</p>
-                            <p><strong> Description:</strong> Perfect for sunset viewing, the lighthouse offers
-                                panoramic views of the sea, mountains, and nearby villages.</p>
-                        </div>
-                    </div>
+        <!-- Basco Lighthouse -->
+        <div class="attraction-card container mb-5 p-3">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/attractions/basco.webp" class="img-fluid rounded shadow-sm" alt="Basco Lighthouse">
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="card attraction-card border-0 shadow-sm">
-                        <img src="assets/attractions/house-dakay.webp" class="card-img-top" alt="House of Dakay">
-                        <div class="card-body">
-                            <h5 class="card-title">House of Dakay</h5>
-                            <p><strong> Location:</strong> Ivana, Batanes</p>
-                            <p><strong> Short History:</strong> Built in 1887, it is the oldest stone house in Batanes
-                                still standing today.</p>
-                            <p><strong> How to Get There:</strong> A short tricycle or van ride from Basco to Ivana.
-                            </p>
-                            <p><strong> Description:</strong> The House of Dakay represents the resilience and
-                                traditional Ivatan culture.</p>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                    <h4 class="fw-bold">Basco Lighthouse</h4>
+                    <p><strong>Location:</strong> Naidi Hills, Basco, Batanes, Philippines</p>
+                    <p><strong>Short History:</strong> Built in 2003, the Basco Lighthouse serves both as a navigational
+                        aid for ships and as a popular tourist spot. It stands as a symbol of safety and resilience,
+                        overlooking the dramatic coastlines of Batanes.</p>
+                    <p><strong>How to Get There: </strong> From Basco town proper, you can take a tricycle for about 10
+                        minutes to reach the lighthouse.</p>
+                    <p><strong>Description:</strong> The Basco Lighthouse is ideal for watching breathtaking sunsets,
+                        with panoramic views of the surrounding sea, rolling hills, and traditional Ivatan villages. Its
+                        serene atmosphere and cool breezes make it a favorite spot for photography and quiet reflection.
+                    </p>
                 </div>
             </div>
-            </section>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        </div>
+
+        <!-- House of Dakay -->
+        <div class="attraction-card container mb-5 p-3">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-md-6">
+                    <img src="assets/attractions/house-dakay.webp" class="img-fluid rounded shadow-sm"
+                        alt="House of Dakay">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="fw-bold">House of Dakay</h4>
+                    <p><strong>Location:</strong> Ivana, Batanes, Philippines</p>
+                    <p><strong>Short History:</strong> The House of Dakay is the oldest surviving stone house in
+                        Batanes, built in the 1880s by the Ivatan people. It was constructed to withstand strong
+                        typhoons and earthquakes, showcasing the resilience and ingenuity of traditional Ivatan
+                        architecture.</p>
+                    <p><strong>How to Get There:</strong> From Basco town proper, you can take a tricycle or van heading
+                        to Ivana, which takes around 30–40 minutes.</p>
+                    <p><strong>Description:</strong> This historic house features thick limestone walls, cogon grass
+                        roofing, and a design that reflects the Ivatan way of life. Visitors can explore the structure
+                        and learn about the culture and traditions of the Ivatans while appreciating the house’s
+                        durability and timeless beauty.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mount Carmel Chapel -->
+        <div class="attraction-card container mb-5 p-3">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/attractions/mount-carmel-chapel.webp" class="img-fluid rounded shadow-sm"
+                        alt="assets/attractions/mount-carmel-chapel.webp">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="fw-bold">Mount Carmel Chapel</h4>
+                    <p><strong>Location:</strong> Tukon, Basco, Batanes, Philippines</p>
+                    <p><strong>Short History:</strong> Mount Carmel Chapel, commonly known as Tukon Chapel, was built to
+                        serve the spiritual needs of the local community. Its stone structure reflects the traditional
+                        Ivatan architectural style, blending harmoniously with the natural hilltop surroundings.</p>
+                    <p><strong>How to Get There:</strong> From Basco town proper, you can reach the chapel by tricycle
+                        or private vehicle in about 15–20 minutes, traveling uphill to Tukon.</p>
+                    <p><strong>Description:</strong> Perched on a hill, the chapel offers panoramic views of the
+                        surrounding mountains, rolling hills, and distant sea. Its serene and peaceful environment makes
+                        it ideal for prayer, reflection, and photography, especially during sunrise or sunset.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Racuh a Payaman -->
+        <div class="attraction-card container mb-5 p-3">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-md-6">
+                    <img src="assets/attractions/racuhpayaman.jpg" class="img-fluid rounded shadow-sm"
+                        alt="Racuh a Payaman">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="fw-bold">Racuh a Payaman</h4>
+                    <p><strong>Location:</strong> Sabtang Island, Batanes, Philippines</p>
+                    <p><strong>Short History:</strong> Racuh a Payaman, also called Marlboro Hills, is a vast grassland
+                        known for its scenic beauty and natural rolling hills. It has long been a grazing ground for
+                        local livestock and a favorite spot for locals and tourists to enjoy Batanes’ serene landscapes.
+                    </p>
+                    <p><strong>How to Get There:</strong> From Sabtang port, take a tricycle or van toward the hills.
+                        The drive offers scenic views of coastal cliffs, farmland, and traditional Ivatan houses.</p>
+                    <p><strong>Description:</strong> Racuh a Payaman features wide, green rolling hills that stretch
+                        toward the horizon, framed by the blue sea and dramatic cliffs. Its peaceful atmosphere, cool
+                        breeze, and open spaces make it perfect for sightseeing, photography, and simply enjoying nature
+                        at its most tranquil.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vayang Rolling Hills -->
+        <div class="attraction-card container mb-5 p-3">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="assets/attractions/vayang-rolling-hills.jpg" class="img-fluid rounded shadow-sm"
+                        alt="Vayang Rolling Hills">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="fw-bold">Vayang Rolling Hills</h4>
+                    <p><strong>Location:</strong> Basco, Batanes, Philippines</p>
+                    <p><strong>Short History:</strong> Vayang Rolling Hills is a famous scenic area in Basco known for
+                        its endless green slopes and panoramic views. It has been a grazing area for local cattle and a
+                        favorite spot for both locals and tourists to enjoy the natural beauty of Batanes.</p>
+                    <p><strong>How to Get There:</strong> From Basco town proper, you can take a tricycle or private
+                        vehicle to the hills. The drive takes around 10–15 minutes and offers beautiful views of the
+                        coastline and surrounding landscapes.</p>
+                    <p><strong>Description:</strong> Vayang Rolling Hills features gently sloping green hills that
+                        stretch toward the horizon, offering a peaceful and breezy atmosphere. Visitors can enjoy
+                        hiking, photography, and panoramic views of the sea, mountains, and Basco town below, especially
+                        during sunrise or sunset.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Morong Beach and Nakabuang Arch -->
+        <div class="attraction-card container mb-5 p-3">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-md-6">
+                    <img src="assets/attractions/morongbeach.jpg" class="img-fluid rounded shadow-sm"
+                        alt="Morong Beach and Nakabuang Arch">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="fw-bold">Morong Beach and Nakabuang Arch</h4>
+                    <p><strong>Location:</strong> Sabtang Island, Batanes, Philippines</p>
+                    <p><strong>Short History:</strong> Morong Beach is a pristine white sand beach on Sabtang Island,
+                        known for its clear waters and calm waves. Nearby, the Nakabuang Arch is a natural rock
+                        formation shaped by centuries of wind and sea erosion, becoming an iconic landmark of the area.
+                    </p>
+                    <p><strong>How to Get There:</strong> From Sabtang port, take a tricycle or local transport to
+                        Morong Beach. The journey takes around 20–30 minutes, passing by scenic coastal views and
+                        traditional Ivatan villages.</p>
+                    <p><strong>Description:</strong> Morong Beach offers a peaceful escape with soft sand and turquoise
+                        waters ideal for relaxation and photography. The Nakabuang Arch, rising dramatically from the
+                        sea, provides a stunning natural frame for the ocean and sky, making it one of Batanes’ most
+                        photographed spots.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <!-- Contact Info -->
+                <div class="col-auto mb-3">
+                    <h6>Contact Us</h6>
+                    <div class="social-icons d-flex justify-content-center gap-3">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#"><i class="bi bi-telephone"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
