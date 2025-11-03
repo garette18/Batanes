@@ -2,58 +2,267 @@
 <html lang="en">
 
 <head>
-    <title>Culture & History of Batanes</title>
-    <!-- Required meta tags -->
+    <title>Batanes, Philippines</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"> <img src="assets/img/logo batanes.png" alt="Batanes Logo"
-                    width="100" height="70"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon me-2"></span>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="assets/img/logo batanes.png" width="100"
+                        height="70"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon me-2"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="history.html">Culture & History</a>
+                        <a class="nav-link" href="things.html">Things To Do</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container py-5 history-section">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h1 class="section-title">Culture & History</h1>
+                <p class="section-sub">A look into the rich past and unique traditions of the Ivatan people.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="historyCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#historyCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#historyCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#historyCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded shadow-lg">
+                <div class="carousel-item active">
+                    <img src="assets/img/history/precolonial.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h5>Pre-Colonial Era</h5>
+                        <p>Early Ivatan settlement and their life on the Idjangs (fortresses).</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/history/spanish.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h5>Spanish Contact</h5>
+                        <p>The establishment of Spanish rule and the start of colonial influence.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/history/modern.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h5>Modern Batanes</h5>
+                        <p>Becoming a peaceful province known for its preservation of culture and nature.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#historyCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="history.html">Culture & History</a>
-                    <a class="nav-link" href="things.html">Things To Do</a>
+            <button class="carousel-control-next" type="button" data-bs-target="#historyCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="row mb-5">
+            <div class="col">
+                <h2 class="section-title text-center mb-4">Ivatan Cultural Pillars</h2>
+                <div class="accordion" id="cultureAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                The Ivatan People: Honesty and Resilience
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#cultureAccordion">
+                            <div class="accordion-body">
+                                <p>The Ivatans are the indigenous people of Batanes, known for their deep-seated
+                                    honesty and resilience against the harsh climate. Their culture is rooted in strong
+                                    community bonds and a simple, respectful way of life. This is exemplified by the
+                                    famous Honesty Coffee Shop in Ivana.</p>
+                                <button type="button" class="btn btn-sm btn-outline-info" data-bs-toggle="modal"
+                                    data-bs-target="#honestyModal">
+                                    Learn More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                The Stone Houses (Bahay na Bato)
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#cultureAccordion">
+                            <div class="accordion-body">
+                                <p>The most iconic symbols of Ivatan architecture are the Stone Houses (locally
+                                    Payon or Bahay na Bato). Built from lime, stone, and coral, with thick cogon
+                                    grass roofs, they are specifically designed to withstand strong typhoons and
+                                    earthquakes. This architecture is a testament to the Ivatans' adaptation to their
+                                    environment.</p>
+                                <p class="mb-0">
+                                    <span class="fw-bold me-2">Key Feature:</span>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Cogon Roofs"
+                                        data-bs-content="The cogon grass roofs are typically 1-meter thick and replaced every 25-30 years, a communal effort called 'Kayvayvanan'.">
+                                        Cogon Roofs
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Traditional Attire: Vakul and Kanayi
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#cultureAccordion">
+                            <div class="accordion-body">
+                                <p>The Vakul (for women) and Kanayi (for men) are traditional weather-protective
+                                    attires. The Vakul is a distinct headgear made from palm fiber (vuyavuy) that
+                                    protects the wearer from the sun and rain while working outdoors. The Kanayi is a
+                                    vest
+                                    used by men for the same purpose.</p>
+                                <p class="mb-0">
+                                    <span class="fw-bold me-2">Material:</span>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="popover" data-bs-placement="bottom" data-bs-title="Vuyavuy Palm"
+                                        data-bs-content="Vuyavuy (Philippine date palm) is a local palm used to weave the Vakul and Kanayi, highlighting the use of native materials.">
+                                        Vuyavuy Palm
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-    <!-- Footer -->
+
+        <hr>
+
+        <div class="row text-center mb-4">
+            <div class="col">
+                <h2 class="section-title">Historical Sites</h2>
+                <p class="section-sub">Places that tell the story of the Ivatan's resilience.</p>
+            </div>
+        </div>
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card attraction-card border-0 shadow-sm h-100">
+                    <img src="assets/img/history/ijang.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Idjang (Ancient Fortresses)</h5>
+                        <p class="card-text">Natural fortress hilltops used by Ivatans for defense against invaders
+                            before the Spanish era.</p>
+                        <button type="button" class="btn btn-outline-success btn-sm" data-bs-toggle="popover"
+                            data-bs-title="Purpose"
+                            data-bs-content="The 'Idjangs' were crucial during tribal wars and served as refuge for Ivatan communities.">
+                            Quick Fact
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card attraction-card border-0 shadow-sm h-100">
+                    <img src="assets/img/history/church.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">St. Joseph the Worker Church (Sabtang)</h5>
+                        <p class="card-text">One of the oldest Spanish-era churches, showing the influence of
+                            Catholicism on Ivatan life.</p>
+                        <button type="button" class="btn btn-outline-success btn-sm" data-bs-toggle="popover"
+                            data-bs-title="Architecture"
+                            data-bs-content="Features distinct stone and coral construction, reflecting both Spanish and Ivatan building techniques.">
+                            Quick Fact
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card attraction-card border-0 shadow-sm h-100">
+                    <img src="assets/img/history/uyugan.jpg" class="card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ruins of Songsong (Uyugan)</h5>
+                        <p class="card-text">A ghost village of stone houses destroyed by a huge tsunami in the 1950s,
+                            now a poignant historical marker.</p>
+                        <button type="button" class="btn btn-outline-success btn-sm" data-bs-toggle="popover"
+                            data-bs-title="Tsunami Event"
+                            data-bs-content="The devastating tsunami led to the permanent relocation of the villagers to higher ground.">
+                            Quick Fact
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="modal fade" id="honestyModal" tabindex="-1" aria-labelledby="honestyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title fw-bold" id="honestyModalLabel">Honesty Coffee Shop</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/history/honesty-shop.jpg" class="img-fluid rounded mb-3">
+                    <p>The Honesty Coffee Shop, located in Ivana, is a globally recognized symbol of the Ivatan people's
+                        integrity. It operates without a staff; customers simply get their items, list what they took,
+                        and drop their payment and change (if needed) into a designated box.</p>
+                    <p class="fw-bold text-success">This shop serves as a living testimony to the almost zero-crime rate
+                        in Batanes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer py-4">
         <div class="container text-center">
-            <h6 class="mb-3">Contact Us</h6>
-            <div class="social-icons d-flex justify-content-center gap-3">
-                <a href="#" class="text-dark fs-5"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="text-dark fs-5"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="text-dark fs-5"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="text-dark fs-5"><i class="bi bi-whatsapp"></i></a>
-                <a href="#" class="text-dark fs-5"><i class="bi bi-telephone"></i></a>
-            </div>
             <p class="mt-3 mb-0 text-white">&copy; 2025 BatanesPH. All rights reserved.</p>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+
+
 </body>
 
 </html>
